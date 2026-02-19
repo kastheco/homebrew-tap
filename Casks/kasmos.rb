@@ -3,7 +3,7 @@ cask "kasmos" do
   name "kasmos"
   desc "TUI agent orchestrator for concurrent OpenCode sessions"
   homepage "https://github.com/kastheco/kasmos"
-  version "2.0.6"
+  version "2.0.7"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,18 +14,18 @@ cask "kasmos" do
   on_macos do
     on_intel do
       url "https://github.com/kastheco/kasmos/releases/download/v#{version}/kasmos_#{version}_darwin_amd64.tar.gz"
-      sha256 "2e0583c94ff8b91771c93111786bcb33128b2041b8f294b61c5988bf1d84a31c"
+      sha256 "22ecf6dca8db83b5a631a9a43a5f75b79bede1dbcbd40c7102a54f533cfa2719"
     end
     on_arm do
       url "https://github.com/kastheco/kasmos/releases/download/v#{version}/kasmos_#{version}_darwin_arm64.tar.gz"
-      sha256 "b93f277cc55ce22c3049e70b1747d0d5ece068a99d342b0cbd18665c0dca40b5"
+      sha256 "0472b44fb3d7ff60a345745a8cc6631a0de7320f2a1e91431225047f533c9f8b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kastheco/kasmos/releases/download/v#{version}/kasmos_#{version}_linux_amd64.tar.gz"
-      sha256 "67dedbb3244219b2bc543a7bc15edb05d79d52f9846c088b4466299e51996c1a"
+      sha256 "5a6e00b13f20d9d3fbd10ffcc2f819c7e7170ee06dcc1cfddd5d0549870cf51c"
     end
   end
 
