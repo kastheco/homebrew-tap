@@ -14,22 +14,22 @@ cask "kasmos" do
   on_macos do
     on_intel do
       url "https://github.com/kastheco/kasmos/releases/download/v#{version}/kasmos_#{version}_darwin_amd64.tar.gz"
-      sha256 "2d98a59414254b212019cc5343eb211dc28e34e7509879a4a16af14a39d32cdd"
+      sha256 "583def566d718e94e3dc22f21d204236bec216403a2a5c0ab610298d66f56b81"
     end
     on_arm do
       url "https://github.com/kastheco/kasmos/releases/download/v#{version}/kasmos_#{version}_darwin_arm64.tar.gz"
-      sha256 "51c07f7190f36ffd5ad45a026fb1ffa01de421854e265ed32c6a7250667b4051"
+      sha256 "dbda239d8c79eeda0c3d3bb1ef305693cc11fb2f05b351f7c67e81e5f9ee4b71"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kastheco/kasmos/releases/download/v#{version}/kasmos_#{version}_linux_amd64.tar.gz"
-      sha256 "3efc32f49c654ef1ca4682b1fc4a90c9a02a61d4fb7c7ac675ae4ed14060c891"
+      sha256 "9750e2ecc6c8eb2a0106384027c913bbb21ffef2f5e583eacafbb96794304f3e"
     end
     on_arm do
       url "https://github.com/kastheco/kasmos/releases/download/v#{version}/kasmos_#{version}_linux_arm64.tar.gz"
-      sha256 "70ee315c0909c62118561d4645de190ecc21734862dfa6e42094836925307186"
+      sha256 "dfcb43bdcce8da2b059019ced9ee835c2e13f615c2688f28f038b4566cf8b167"
     end
   end
 
