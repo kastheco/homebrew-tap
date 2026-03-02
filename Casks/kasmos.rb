@@ -3,7 +3,7 @@ cask "kasmos" do
   name "kasmos"
   desc "kas - A TUI-based agent-driven IDE for managing multiple AI agents"
   homepage "https://github.com/kastheco/kasmos"
-  version "1.3.1"
+  version "1.3.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "kasmos" do
   on_macos do
     on_intel do
       url "https://github.com/kastheco/kasmos/releases/download/v#{version}/kasmos_#{version}_darwin_amd64.tar.gz"
-      sha256 "c881c2f5b0edd79b5f6da646b03d9ad76f152cd54b9aadf2cfdd887cc25e95a0"
+      sha256 "93581bff35f08595bbd4bae2b3cd9ad6d6aeb9611f5345bb71e1383d12f60098"
     end
     on_arm do
       url "https://github.com/kastheco/kasmos/releases/download/v#{version}/kasmos_#{version}_darwin_arm64.tar.gz"
-      sha256 "c742d743253db590108f36259805bdcfede9ae1e43f836e528b3c0113de6ecbd"
+      sha256 "50f60208a2c166d5235b4ede22c26791ec058c518fdbacd49baea77c2ce73d02"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kastheco/kasmos/releases/download/v#{version}/kasmos_#{version}_linux_amd64.tar.gz"
-      sha256 "c40bf1edaa3a2feaa9e32b226b0e2e5e380e04cc990bcf1a8ddbd1348aaed77e"
+      sha256 "5f259f2c48f7a5d0d419b7e2540f2bc0a07b77473b05de1af80b841f73b36fc0"
     end
     on_arm do
       url "https://github.com/kastheco/kasmos/releases/download/v#{version}/kasmos_#{version}_linux_arm64.tar.gz"
-      sha256 "9e01279693ab190074ea68507567e8ff9adc2aabe93cdcaa6c95a0c96c5f083e"
+      sha256 "3eb2245392c869eaa76194ccfb6d6954a45c7d17331e11fb667cd19738b34ab2"
     end
   end
 
